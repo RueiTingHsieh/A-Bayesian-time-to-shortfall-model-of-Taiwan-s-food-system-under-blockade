@@ -1,0 +1,17 @@
+key,value,unit,source
+population_2026_05,23252641,persons,MOI household registration statistics (end of May 2026)
+population_2022_mid,23319977,persons,MOA Food Balance Sheet 2022 (population used in FBS)
+population_2025_12,23299132,persons,MOI SEGIS county population Dec 2025 (sum of counties; used for 2025 per-capita supply)
+rice_pc_kg_2024,42.4,kg/person/year,MOA food supply statistics 2024 (reported by NewsMarket 2025)
+rice_pc_kg_2022,42.98,kg/person/year,MOA Food Balance Sheet 2022
+calorie_ssr_2024,30.7,percent,MOA calorie-based food self-sufficiency 2024
+calorie_ssr_2023,30.3,percent,MOA calorie-based food self-sufficiency 2023
+rice_public_stock_months_2025_03,5.5,months,Minister of Agriculture to Legislative Yuan (March 2025)
+distribution_stations,143,count,Minister of Agriculture (March 2025)
+bulk_vessels_per_month_corn,5,vessels/month,USDA FAS GAIN TW2024-0030
+bulk_vessels_per_month_soybean,2.5,vessels/month,USDA FAS GAIN TW2024-0030
+bulk_vessels_per_month_wheat,1.5,vessels/month,USDA FAS GAIN TW2024-0030
+lng_days,10,days,CSIS Lights Out? (2025) p.xii; MOEA 2026 (10-11 days) via EIA
+coal_days,49,days,CSIS Lights Out? (2025): about 7 weeks
+oil_days,140,days,CSIS Lights Out? (2025): about 20 weeks
+paddy_price_planned_2025,26,NTD/kg dry paddy,MOA planned-procurement price 2025 (japonica dry paddy; indica NT$25)

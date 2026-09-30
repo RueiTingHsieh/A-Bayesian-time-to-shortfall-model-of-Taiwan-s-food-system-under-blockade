@@ -1,0 +1,32 @@
+item,group,kcal_pc_day,protein_pc_day,production_kt,imports_kt,exports_kt,domestic_supply_kt,pool_domestic,pool_imported,note
+rice,cereals,416.84,8.28,1251.5,154.3,168.6,1204.0,RICE,RICE,domestic staple; storable; two harvests per year
+wheat,cereals,379.60,11.35,0.7,1415.2,80.3,1348.9,IMP_BULK,IMP_BULK,imported by bulk carrier
+corn_food,cereals,27.77,0.28,161.8,4732.5,0.7,4644.9,IMP_BULK,IMP_BULK,food use only; feed corn handled in feed pool
+other_cereals,cereals,2.66,0.08,,,,,IMP_OTHER,IMP_OTHER,residual of cereals group
+sweet_potato,starchy_roots,23.30,0.27,224.2,1.4,0.8,224.9,DOM_PERISH,IMP_OTHER,domestic
+cassava,starchy_roots,78.76,0.02,0.6,1293.2,178.5,1084.5,IMP_BULK,IMP_BULK,mostly imported tapioca/starch
+potatoes,starchy_roots,26.27,0.88,61.4,271.1,1.4,360.4,DOM_PERISH,IMP_OTHER,17% domestic
+sugar,sugars,253.15,0.01,44.0,598.5,41.0,582.1,DOM_STOR,IMP_BULK,7.6% domestic
+honey,sugars,3.03,0.00,9.3,5.1,6.2,8.3,DOM_STOR,IMP_OTHER,domestic
+soybeans_food,pulses_oilseeds,101.58,9.50,5.6,2752.0,8.1,2644.0,IMP_BULK,IMP_BULK,food use only; crushing and feed handled elsewhere
+peanuts,pulses_oilseeds,15.63,0.89,51.0,13.3,0.4,63.9,DOM_STOR,IMP_OTHER,80% domestic
+sesame,pulses_oilseeds,5.23,0.20,1.8,38.3,0.1,40.0,DOM_STOR,IMP_OTHER,4.5% domestic
+other_pulses,pulses_oilseeds,52.91,2.77,,,,,IMP_OTHER,IMP_OTHER,residual of pulses & oilseeds group (assumed imported)
+vegetables,vegetables,79.08,4.49,2370.6,451.8,73.5,2748.8,DOM_PERISH,IMP_PERISH,86% domestic
+fruits,fruits,118.07,1.82,2490.4,625.9,130.7,2985.6,DOM_PERISH,IMP_PERISH,83% domestic
+pork,meat,175.31,13.04,838.4,122.5,5.4,939.3,LIVESTOCK,IMP_PERISH,domestic output depends on imported feed
+poultry,meat,197.31,13.04,784.2,243.0,1.1,1026.1,LIVESTOCK,IMP_PERISH,domestic output depends on imported feed
+beef,meat,45.50,3.19,8.1,167.7,1.1,174.7,LIVESTOCK,IMP_PERISH,mostly imported
+mutton_other,meat,4.24,0.55,1.3,21.5,0.0,22.8,LIVESTOCK,IMP_PERISH,residual of meat group
+eggs,eggs,74.03,6.78,482.7,3.8,2.2,484.3,LIVESTOCK,IMP_PERISH,domestic output depends on imported feed
+fish_seafood,fish,58.20,7.82,875.1,515.7,618.4,768.2,FISH,FISH,production exceeds domestic supply
+fresh_milk,milk,38.45,1.89,474.2,48.9,0.0,523.1,LIVESTOCK,IMP_PERISH,91% domestic
+milk_powder,milk,32.41,2.35,0.0,67.3,3.5,63.8,IMP_OTHER,IMP_OTHER,imported
+other_milk_products,milk,38.43,1.97,0.0,115.4,1.7,113.7,IMP_OTHER,IMP_OTHER,imported
+soybean_oil,oils_fats,313.64,0.00,0.0,0.1,27.5,303.0,IMP_BULK,IMP_BULK,crushed in Taiwan from imported soybeans
+peanut_oil,oils_fats,6.88,0.00,6.7,0.0,0.0,6.7,DOM_STOR,IMP_OTHER,domestic
+sesame_oil,oils_fats,10.89,0.00,0.0,4.0,6.2,10.5,IMP_OTHER,IMP_OTHER,from imported sesame
+other_veg_oils,oils_fats,140.84,0.00,0.0,318.7,2.4,319.4,IMP_BULK,IMP_BULK,palm and other oils by tanker
+lard,oils_fats,21.73,0.00,36.4,3.9,0.1,40.2,LIVESTOCK,IMP_OTHER,domestic output depends on imported feed
+butter,oils_fats,23.77,0.02,0.0,27.7,0.0,27.7,IMP_OTHER,IMP_OTHER,imported
+other_animal_fats,oils_fats,23.70,0.00,0.0,35.6,3.8,31.8,IMP_OTHER,IMP_OTHER,imported

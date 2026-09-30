@@ -1,0 +1,5 @@
+feed_item,quantity_kt,human_kcal_per_kg,protein_frac,edible_conversion_default,note
+corn_feed,4475.5,3650,0.094,0.75,FBS 2022 corn used as feed; yellow dent corn milled to meal/grits
+soybean_meal,1568.7,3300,0.47,0.45,79% meal yield from 1985.7 kt crushed soybeans; defatted soy flour energy
+soybean_feed,331.3,4460,0.365,0.80,full-fat soybeans used as feed
+wheat_feed,49.5,3390,0.126,0.90,feed wheat

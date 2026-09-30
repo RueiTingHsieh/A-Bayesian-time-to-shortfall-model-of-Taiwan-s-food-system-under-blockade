@@ -1,0 +1,49 @@
+parameter,scenario,dist,lo_or_mean,hi_or_sd,source,note
+beta,all,uniform,0.9,1.0,assumption,unrationed consumption as share of normal FBS supply
+m_civ,all,uniform,2000.0,2200.0,"Sphere Handbook 2018 (2,100 kcal planning figure) +/-5%","civilian minimum intake, kcal/day"
+m_mil,all,uniform,3000.0,3600.0,assumption (field ration standards),"mobilised personnel intake, kcal/day"
+s_mil,all,uniform,0.013,0.039,"Legislative Yuan 2024: 710,569 mobilisable reservists + active force",share of population in uniform
+w,all,uniform,0.05,0.12,assumption,distribution + household losses under rationing
+p_min,all,uniform,40.0,50.0,FAO/WHO/UNU 2007 safe protein level (~0.83 g/kg),"population-average protein need, g/day"
+panic,all,uniform,0.0,0.15,assumption (COVID-19 panic buying),"extra drawdown in first 14 days, share of demand"
+rice_trough,all,uniform,4.0,6.5,MOA Mar 2025: public stocks 5.5 months; 8-9 after harvest; ~1 year incl. private,"total rice stock on 1 June, months of use"
+m_imp,all,uniform,1.0,2.5,"assumption; USDA FAS: grain arrives monthly (5 corn, 2.5 soy, 1.5 wheat vessels/month)","imported storables in the pipeline, months"
+d_house,all,uniform,5.0,14.0,assumption,"household + retail pantry, days of normal diet"
+m_frz,all,uniform,0.5,1.5,assumption,"cold-store meat inventory, months of meat use"
+d_feed,all,uniform,30.0,60.0,assumption; limited silo capacity (USDA FAS),"feed grain stocks, days of feed use"
+B_live,all,uniform,25000.0,38000.0,"MOA: 5.24 M pigs (May 2023), 126.9 kg carcass; poultry standing stock","edible energy in standing herds, kcal/person"
+r_die,all,uniform,0.01,0.03,assumption,daily herd loss per unit feed shortfall
+eps_distress,all,uniform,0.1,0.4,assumption,share of distress-slaughter meat that is eaten
+D_gas,all,uniform,9.0,12.0,CSIS Lights Out? (2025) p.xii; MOEA 2026 via EIA (10-11 days),"LNG stock, days"
+D_coal,all,uniform,42.0,56.0,CSIS Lights Out? (2025): ~7 weeks,"coal stock, days"
+D_oil,all,uniform,120.0,160.0,CSIS Lights Out? (2025): ~20 weeks,"oil stock, days"
+pi_o,all,uniform,0.0,0.3,assumption,share of fuel shortfall shielded for agri-food
+a_c,all,uniform,0.3,0.6,assumption,crop output sensitivity to fuel shortage
+a_e,all,uniform,0.05,0.2,assumption,"crop output sensitivity to power shortage (pumps, cold chain)"
+a_f,all,uniform,0.1,0.35,assumption,yield loss per unit fertilizer import shortfall
+d_fert,all,uniform,60.0,180.0,assumption,"fertilizer stocks, days"
+a_o,all,uniform,0.4,0.8,assumption,fishing sensitivity to fuel shortage
+a_h,all,uniform,0.1,0.4,assumption,harvest/drying/milling sensitivity to fuel & power
+lam_c,all,uniform,0.2,0.6,assumption,perishable loss per unit power shortfall (cold chain)
+r0,all,uniform,0.01,0.05,assumption,daily frozen-stock decay per unit power shortfall
+onset_doy,all,uniform,0.0,365.0,design,day of year the blockade begins
+t_s,all,uniform,3.0,30.0,assumption,day of strikes on ports/warehouses
+kappa,all,uniform,0.75,0.95,assumption,rationing compliance
+delta,all,uniform,0.5,0.8,assumption,herd reduction under planned feed-to-food
+eta_corn,all,uniform,0.6,0.9,assumption,edible yield when feed corn is milled for people
+eta_meal,all,uniform,0.3,0.6,assumption,edible yield of soybean meal as food
+eps_cold,all,uniform,0.6,0.9,assumption,share of planned-slaughter meat preserved
+A_sp,all,uniform,20000.0,60000.0,"assumption; 10-30% of paddy land not in rice (188k ha in 1st-crop, 263k ha in 2nd-crop season: DGBAS 2024 paddy area minus AFA 2025 rice area)","surge sweet-potato area, ha"
+Y_sp,all,uniform,12.0,22.0,MOA county yields 2019: 10-25 t/ha,"surge sweet-potato yield, t/ha"
+lag_sp,all,uniform,120.0,165.0,MOA sweet-potato calendar (4-6 months),"planting-to-harvest, days"
+g,all,uniform,0.3,0.6,assumption; CSIS: escorted convoys kept Taiwan supplied,guaranteed bulk-grain arrival with convoys
+disp,all,uniform,0.2,0.4,assumption,strike-loss multiplier with dispersed storage
+phi,S1,beta,0.75,0.08,CSIS 2025: boarding-only blockade - most merchant traffic continued,
+f_s,S1,uniform,0.85,1.0,assumption,
+lam_s,S1,uniform,0.0,0.0,no kinetic strikes,
+phi,S2,beta,0.35,0.08,CSIS 2025: without U.S. intervention 40% of inbound ships destroyed; plus deterred sailings,
+f_s,S2,uniform,0.35,0.7,assumption,
+lam_s,S2,uniform,0.0,0.1,assumption,
+phi,S3,beta,0.06,0.03,assumption: near-total interdiction,
+f_s,S3,uniform,0.2,0.5,assumption,
+lam_s,S3,uniform,0.03,0.2,assumption,
